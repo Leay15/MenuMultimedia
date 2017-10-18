@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ivan.u4pr02menumultimedia.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Configuraciones"
+        app:showAsAction="never" >
+        <menu>
+            <item android:id="@+id/Navegador"
+                android:orderInCategory="100"
+                android:title="Abrir Navegador"></item>
+            <item android:id="@+id/Correo"
+                android:orderInCategory="100"
+                android:title="Abrir Correo"></item>
+            <item android:id="@+id/Agenda"
+                android:orderInCategory="100"
+                android:title="Abrir Agenda"></item>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu1"
+        app:showAsAction="never"
+        android:title="Multimedia"
+        android:orderInCategory="100">
+
+        <menu>
+            <item android:id="@+id/reproductorAudio"
+                android:orderInCategory="100"
+                android:title="Reproductor de Audio"></item>
+            <item android:id="@+id/reproductorVideo"
+                android:orderInCategory="100"
+                android:title="Reproductor de Video"></item>
+            <item android:id="@+id/reproductorVideoView"
+                android:orderInCategory="100"
+                android:title="Reproductor de Video View"></item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu2"
+        app:showAsAction="never"
+        android:title="Recursos"
+        android:orderInCategory="100">
+
+        <menu>
+            <item android:id="@+id/camara"
+                android:orderInCategory="100"
+                android:title="Camara"></item>
+
+        </menu>
+    </item>
+</menu>
